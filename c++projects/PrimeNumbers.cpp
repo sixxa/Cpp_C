@@ -7,7 +7,7 @@ int main()
 	for(int i =3 ; i < 1000; i+=2){
 		bool prime = true;
 
-		for(int j = 3; j < i; j+=2){
+		for(int j = 3; j < i/2; j+=2){
 			if(i % j == 0){
 				prime = false;
 				break;
